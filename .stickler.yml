@@ -1,0 +1,18 @@
+---
+files:
+    # Ignore the files that match these glob patterns.
+    # Be careful to quote strings as `*` has special
+    # meaning in YAML files.
+    ignore:
+        - 'src/generated/*.py'
+        - 'webroot/bower_components/*'
+
+branches:
+
+review:
+    # Don't use 'failure' build status when
+    # a pull request contains style errors.
+    fail_on_comments: false
+linters:
+    csslint:
+        ignore: 'box-model,ids'
