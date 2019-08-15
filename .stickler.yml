@@ -8,9 +8,6 @@ files:
         - 'webroot/bower_components/*'
 
 branches:
-    # Ignore pull requests to the named branches
-    ignore:
-        - 'master'
 
 review:
     # Don't use 'failure' build status when
